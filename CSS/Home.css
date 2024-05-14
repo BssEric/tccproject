@@ -184,12 +184,12 @@ header {
     .logo h1{
         display: flex;
         width: 200px;
-        font-size: 75px;
+        font-size: 100px;
     }
 
     .logo .img{
         width: 200px;
-        height: 125px;
+        height: 150px;
     }
 
     .mobile-menu ul a{
@@ -227,11 +227,19 @@ header {
 
     .mobile-menu-icon {
         display: block;
+        
     }
+
+    .mobile-menu-icon .icon{
+        height: 100px;
+        width: 100px;
+    }
+
     .mobile-menu-icon button{
         background-color: transparent;
         border: none;
         cursor: pointer;
+        height: 200px;
     }
     .mobile-menu ul{
         display: flex;
