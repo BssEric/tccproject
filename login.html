@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="CSS/login.css">
- 
+
 </head>
+
 <body>
 
     <header>
 
         <nav class="nav-bar">
-    
-          <nav class="logo">
-            <img class="img" src="CSS/img/LOGO..svg" alt="">
-            <a href="Index.html"><h1>Reali-Z</h1></a>
-        </nav>
-          
-    
-         
-    
-    </header>
 
+            <nav class="logo">
+                <img class="img" src="CSS/img/LOGO..svg" alt="">
+                <a href="Index.html">
+                    <h1>Reali-Z</h1>
+                </a>
+        </nav>
+    </header>
+    
     <form>
         <h3>Login</h3>
 
@@ -29,7 +29,8 @@
 
         <label for="password">Senha</label>
         <input type="password" placeholder="Senha" id="password">
-        <button>Entrar</button>
+        <button id="loginEmail">Entrar</button>
+        <button id="googleLogin">Entrar com Google</button>
         <br>
         <br>
         <a href="cadastro.html" id="a">Não Tem Cadastro? Clique Aqui.</a>
@@ -38,5 +39,8 @@
         <br><br>
         <br>
     </form>
+    <script type="module" src="Script/config.js">
+    </script>
 </body>
+
 </html>
